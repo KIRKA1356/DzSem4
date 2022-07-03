@@ -22,10 +22,9 @@ Console.WriteLine("Cумма равна: " + Sum(x));
 
 
 
-
-int[] array = new int[8];                                   //Задача 29
-void masiv(int[] array)
+void masiv()                     //Задача 29
 {
+    int[] array = new int[8];
     int count = array.Length;
     for (int i = 0; i<count; i++)
         {
@@ -34,6 +33,6 @@ void masiv(int[] array)
             Console.Write($"{array[i]} ");
         }
 }
-masiv(array);
+masiv();
 
 
